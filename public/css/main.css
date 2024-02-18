@@ -496,9 +496,6 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
-.block {
-  display: block;
-}
 .flex {
   display: flex;
 }
@@ -527,24 +524,25 @@ video {
 .p-2 {
   padding: 0.5rem;
 }
-.p-5 {
+
+.link {
+  display: block;
   padding: 1.25rem;
-}
-.font-bold {
   font-weight: 700;
-}
-.text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-/* .link{
-    @apply text-white block p-5 font-bold hover:text-yellow-500
-} */
-
-.hover\:text-yellow-500:hover {
+.link:hover {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+
+  .md\:w-4\/6 {
+    width: 66.666667%;
+  }
 }
 
 @media (min-width: 1024px) {
