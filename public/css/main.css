@@ -536,6 +536,9 @@ video {
 .w-1\/6 {
   width: 16.666667%;
 }
+.w-5\/6 {
+  width: 83.333333%;
+}
 .w-\[1920px\] {
   width: 1920px;
 }
@@ -591,17 +594,35 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
+.bg-character-mario {
+  background-image: url('../img/character-l.png');
+}
+.bg-pattern-characters-red {
+  background-image: url('../img/pattern-characters-red.png');
+}
 .bg-wave-pattern {
   background-image: url('../img/wave-white.png');
 }
 .bg-wave-pattern-dots {
   background-image: url('../img/pattern-white-dots.png');
 }
+.bg-contain {
+  background-size: contain;
+}
+.bg-top {
+  background-position: top;
+}
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
 .bg-repeat-x {
   background-repeat: repeat-x;
 }
 .p-2 {
   padding: 0.5rem;
+}
+.p-3 {
+  padding: 0.75rem;
 }
 .p-4 {
   padding: 1rem;
@@ -621,6 +642,9 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+.pt-52 {
+  padding-top: 13rem;
 }
 .text-center {
   text-align: center;
@@ -663,6 +687,55 @@ video {
   color: rgb(234 179 8 / var(--tw-text-opacity));
 }
 
+@media (min-width: 1024px) {
+
+  .lg\:container {
+    width: 100%;
+  }
+
+  @media (min-width: 320px) {
+
+    .lg\:container {
+      max-width: 320px;
+    }
+  }
+
+  @media (min-width: 640px) {
+
+    .lg\:container {
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px) {
+
+    .lg\:container {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+
+    .lg\:container {
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+
+    .lg\:container {
+      max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+
+    .lg\:container {
+      max-width: 1536px;
+    }
+  }
+}
+
 .hover\:border-gray-200:hover {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
@@ -687,8 +760,20 @@ video {
 
 @media (min-width: 768px) {
 
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
   .md\:w-4\/6 {
     width: 66.666667%;
+  }
+
+  .md\:w-full {
+    width: 100%;
   }
 
   .md\:flex-row {
