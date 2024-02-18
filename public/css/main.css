@@ -536,6 +536,9 @@ video {
 .w-1\/6 {
   width: 16.666667%;
 }
+.w-\[1920px\] {
+  width: 1920px;
+}
 .w-full {
   width: 100%;
 }
