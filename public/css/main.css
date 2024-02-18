@@ -678,6 +678,13 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+@media (min-width: 320px) {
+
+  .xsm\:w-full {
+    width: 100%;
+  }
+}
+
 @media (min-width: 768px) {
 
   .md\:w-4\/6 {
